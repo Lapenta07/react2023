@@ -1,0 +1,11 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    color: red;
+    letter-spacing: 0.3rem;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+}
