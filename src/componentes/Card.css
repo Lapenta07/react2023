@@ -1,0 +1,46 @@
+.card{
+    margin: 1rem auto;
+    width: 300px;
+    height: 500px;
+    border: 2px solid var(--negro);
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(35, 192, 134, 0.336);
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-info h2{
+    font-size:x-large;
+    color: var(--negro);
+    text-decoration: underline;
+}
+
+.descripcion{
+    color: grey;
+    font-size: large;
+    margin: 1rem auto;
+}
+
+.card-info-detalles{
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.precio{
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.envio{
+    font-size: small;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 5px;
+    background-color: var(--azul);
+}
+
