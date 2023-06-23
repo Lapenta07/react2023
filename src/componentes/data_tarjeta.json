@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "imagen": "assets/colombia.jpg",
+        "titulo": "Colombia",
+        "descripcion": "Café, historia y playas",
+        "precio": 850000,
+        "envio": true
+    },
+    {
+        "id": 2,
+        "imagen": "assets/brasil.jpg",
+        "titulo": "Brasil",
+        "descripcion": "Carnaval, playa y deporte",
+        "precio": 1050000,
+        "envio": true
+    },
+    {
+        "id": 3,
+        "imagen": "assets/uruguay.jpg",
+        "titulo": "Uruguay",
+        "descripcion": "Tradición, gastronomía y futbol",
+        "precio": 80000,
+        "envio": true
+    },
+    {
+        "id": 4,
+        "imagen": "assets/peru.jpg",
+        "titulo": "Perú",
+        "descripcion": "Historia, aventura y playa",
+        "precio": 950000,
+        "envio": true
+    }
+]

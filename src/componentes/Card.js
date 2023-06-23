@@ -2,7 +2,6 @@ import './Card.css'
 
 export default function Card ({producto}){
 
-
     return (
         <div className='card'>
             <img src={producto.imagen} alt=''/>
@@ -12,7 +11,7 @@ export default function Card ({producto}){
                 <div className='card-info-detalles'>
                     <p className='precio'>${producto.precio}</p>
                         {producto.envio &&
-                            <p className='envio'>Envio gratis</p>
+                            <p className='envio'>COMPRAR</p>
                         }
                 </div>
             </div>
