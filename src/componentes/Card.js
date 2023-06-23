@@ -1,13 +1,7 @@
 import './Card.css'
 
-export default function Card (){
-    const producto = {
-        imagen: 'assets/colombia.jpg',
-        titulo: 'Viaje a Colombia',
-        descripcion: 'Descripcion viaje',
-        precio: 950000,
-        envio: true,
-    }
+export default function Card ({producto}){
+
 
     return (
         <div className='card'>

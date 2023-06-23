@@ -1,17 +1,24 @@
 import './App.css';
 //importamos el componente, si esta abierto en otra pestaña VS autocompleta
 import Title from './componentes/Title';
-import Card from './componentes/Card';
+import CardWrapper from './componentes/CardWrapper';
 
 function App() {
+  const numeros = [45, 76, 23, 677, 3, 78];
+
   return (
     <div className="App">
-      <Title nombre = "Nacho" />
-      <div className='Cards-display'> 
-        <Card />
-        <Card />
-        <Card />
-      </div>
+        <Title nombre = "Nacho" />
+        <CardWrapper />
+
+        {numeros.map(numero =>{ 
+          const precio = numero * 0.9;
+
+          return (
+            <p>El precio con 10% off es: {precio} </p>
+          )
+          })}
+
     </div>
   );
 }
