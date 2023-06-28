@@ -3,10 +3,13 @@ import './App.css';
 import Title from './componentes/Title';
 import CardWrapper from './componentes/CardWrapper';
 import Contador from './componentes/Contador';
+import Pokemon from './componentes/Pokemon';
+
 
 function App() {
   return (
     <div className="App">
+        <Pokemon />
         <Title nombre = "Nacho" />
         <Contador />
         <CardWrapper />
