@@ -16,6 +16,15 @@ export default function Pokemon () {
         const random = getRandomNumber(1, 1017);
         const endpoint =`https://pokeapi.co/api/v2/pokemon/${random}`;
 
+        //async = habilitamos promesas
+        const fetchPokemon = async () => {
+            const res = await fetch(endpoint);
+            console.log(res);
+        }
+
+        //llamar a la funcion
+        fetchPokemon();
+
         fetch(endpoint).then((res) => {
             if (res.ok === true){
                 //todo ok
